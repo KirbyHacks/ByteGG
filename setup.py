@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='bytegg',
-    version='0.1.2',    
+    version='0.1.3',    
     description='A Python package that bypasses advertisements to streamline user experiences with content.',
     url='https://github.com/KirbyHacks/ByteGG',
     author='! rL⌀w',
