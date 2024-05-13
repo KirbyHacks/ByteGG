@@ -13,7 +13,7 @@ pip install bytegg
 There is only one premium version available, and it requires an API key. For more information, send a direct message to "icmecodes" to obtain and purchase the key.
 
 ```python
-import bytegg
+import bytegg, asyncio
 
 async def bypass(url):
     xd = await bytegg.bypass(url=url, api_key='XXXXXXXXXXXXXXXXXX-rlow')
