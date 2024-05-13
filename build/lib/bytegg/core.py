@@ -10,4 +10,6 @@ async def bypass(*, url, api_key):
     async with aiohttp.ClientSession() as session:
         async with session.get("http://paid4.daki.cc:4056/api/bypass?url=" + quote(url), headers=header) as response:
             r = await response.json()
-            return r
+            if "error" in r:
+                return r["error"]
+            return r["result"]
