@@ -16,7 +16,7 @@ There is only one premium version available, and it requires an API key. For mor
 import bytegg
 
 async def bypass(url):
-    xd = await bytegg.bypass(url=url, api_key='Delorean_M23981193209875491345103451015000998N')
+    xd = await bytegg.bypass(url=url, api_key='XXXXXXXXXXXXXXXXXX-rlow')
     print(xd)
 
 asyncio.run(bypass("https://linkvertise.com/1160317/pastedrop-evon-and-vega-x?o=sharing"))
